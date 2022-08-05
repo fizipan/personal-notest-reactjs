@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 
 const AddNote = ({ handleAddNote, type }) => {
   const [noteTitle, setNoteTitle] = useState('')

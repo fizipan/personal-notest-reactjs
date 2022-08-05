@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { nanoid } from 'nanoid'
 import NotesList from './components/NotesList'
 import Search from './components/Search'
